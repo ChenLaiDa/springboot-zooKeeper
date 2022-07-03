@@ -1,0 +1,12 @@
+server:
+  port: 8080
+zookeeper:
+  curator:
+#    ip: 192.168.3.102:2181,192.168.3.103:2181,192.168.3.104:2181
+    ip: 139.196.196.8:2181
+    sessionTimeOut: 50000
+    sleepMsBetweenRetry: 1000
+    maxRetries: 3
+    namespace: demo
+    connectionTimeoutMs: 50000
+
